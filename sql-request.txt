@@ -1,0 +1,3 @@
+SELECT Passenger.id, trip, passenger, place, name
+FROM Pass_in_trip, Passenger
+WHERE trip = 7771;
